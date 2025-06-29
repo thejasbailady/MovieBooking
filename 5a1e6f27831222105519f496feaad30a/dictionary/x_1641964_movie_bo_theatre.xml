@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ecd2bb6f831222105519f496feaad3bb" label="Theatre" max_length="40" name="x_1641964_movie_bo_theatre" type="collection">
+        <element label="location" max_length="40" name="location" type="string"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

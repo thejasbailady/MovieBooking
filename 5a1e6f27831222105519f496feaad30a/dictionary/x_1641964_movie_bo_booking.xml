@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="08a3ffeb831222105519f496feaad358" label="Booking" max_length="40" name="x_1641964_movie_bo_booking" type="collection">
+        <element label="Showtime" max_length="32" name="showtime" reference="x_1641964_movie_bo_showtime" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Seat number" max_length="40" name="seat_number" type="string"/>
+        <element label="user" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Qr_code" max_length="40" name="qr_code" type="user_image"/>
+        <index name="index">
+            <element name="showtime"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
