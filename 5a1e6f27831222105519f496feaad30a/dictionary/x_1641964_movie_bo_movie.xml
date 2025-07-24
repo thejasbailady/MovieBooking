@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="28e0b3eb831222105519f496feaad3c3" label="Movie" max_length="40" name="x_1641964_movie_bo_movie" type="collection">
+        <element label="poster" max_length="40" name="poster" type="user_image"/>
+        <element label="description" max_length="40" name="description" type="string"/>
+        <element label="rating" max_length="20" name="rating" type="decimal"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+    </element>
+</database>

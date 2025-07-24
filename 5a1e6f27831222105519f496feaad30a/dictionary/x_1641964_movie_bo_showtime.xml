@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a013bb6f831222105519f496feaad3c3" label="Showtime" max_length="40" name="x_1641964_movie_bo_showtime" type="collection">
+        <element label="Show time" max_length="40" name="show_time" type="glide_date_time"/>
+        <element label="theater" max_length="32" name="theater" reference="x_1641964_movie_bo_theatre" type="reference"/>
+        <element label="movie" max_length="32" name="movie" reference="x_1641964_movie_bo_movie" type="reference"/>
+        <index name="index">
+            <element name="movie"/>
+        </index>
+        <index name="index2">
+            <element name="theater"/>
+        </index>
+    </element>
+</database>
